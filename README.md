@@ -30,3 +30,28 @@ The dataset includes the following key variables:
 5. Model Evaluation
    * Accuracy, Precision, Recall, F1-score
    * Confusion Matrix
+# Key Insights
+1. Age – Older customers are most likely to churn.
+2. Balance & Salary – High-value customers are more prone to switching banks.
+3. Credit Score – Lower scores correlate with higher churn.
+4. Product Number – Churn risk varies by product type. For example, customers linked only to Product 1 may have higher churn, while those with Product 3 or 4 tend to be stickier. This suggests that some products naturally create stronger customer loyalty than others.
+5. Activity – Inactive customers have higher churn rates.
+6. Demographics (Gender, Geography) – Minimal impact.
+# Business Recommendations
+* Focus on older, high-balance customers with loyalty programs.
+* Product-Specific Retention – Since churn varies by product type, cross-sell and upsell sticky products to customers holding only high-churn products. This increases long-term engagement and loyalty.
+* Boost engagement through mobile/app campaigns.
+* Provide credit support for customers with lower scores.
+* Tailored retention strategies for German customers
+# Tech Stack
+* Language: Python
+* Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+* Modeling: Logistic Regression, Random Forest
+* Visualization: Feature importance plots, EDA charts
+# Business Impact
+By deploying this churn prediction model, the bank can:
+* Reduce customer attrition with targeted interventions.
+* Improve Customer Lifetime Value (CLV) by retaining high-value clients.
+* Adopt data-driven decision making for customer retention strategies.
+# Contributing
+Contributions are welcome! Feel free to fork this repo, raise issues, and submit pull requests.
