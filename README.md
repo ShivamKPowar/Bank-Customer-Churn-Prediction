@@ -1,5 +1,4 @@
 # Bank-Customer-Churn-Prediction
-Data Analysis project on Bank Customer Churn. Covers exploratory data analysis (EDA), data preprocessing, feature engineering, visualization, model building (Logistic Regression &amp; Random Forest), feature importance analysis, and business insights to improve customer retention strategies.
 # Project Overview
 Customer churn is a critical challenge in the banking industry. This project focuses on building a machine learning model to predict which customers are likely to leave the bank. By identifying at-risk customers early, banks can take proactive steps to retain them, reduce revenue loss, and improve customer satisfaction.
 # Objectives
